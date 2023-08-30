@@ -50,4 +50,4 @@ Here is a detailed summary of the methods and analysis steps from the report on 
 - Key risk factors like age, gender, SES identified through analysis
 - Limitations highlighted like small sample size
 
-# In summary, the analysis follows a standard machine learning workflow - data preprocessing, exploratory analysis, clustering, predictive modeling with logistic regression, model evaluation and feature selection. The report highlights the important risk factors found while also noting limitations in the data and methodology. The steps could serve as a template for a typical machine learning analysis.
+## In summary, the analysis follows a standard machine learning workflow - data preprocessing, exploratory analysis, clustering, predictive modeling with logistic regression, model evaluation and feature selection. The report highlights the important risk factors found while also noting limitations in the data and methodology. The steps could serve as a template for a typical machine learning analysis.
