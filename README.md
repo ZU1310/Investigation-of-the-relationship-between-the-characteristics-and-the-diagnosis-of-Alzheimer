@@ -16,34 +16,38 @@ have the illness are both possible outcomes of interventions that focus on these
 
 #Methods
 
+Here is a detailed summary of the methods and analysis steps from the report on investigating Alzheimer's disease risk factors:
+
 Data Loading and Preparation
 
-The dataset is loaded into R using read.csv()
-Missing values are removed with na.omit()
-Categorical columns like gender are converted to numeric formats
-Invalid rows like 'Converted' are removed
-Exploratory Data Analysis
+- The dataset is loaded into R using read.csv()
+- Missing values are removed with na.omit() 
+- Categorical columns like gender are converted to numeric formats
+- Invalid rows like 'Converted' are removed
 
-Summary statistics generated to describe all variables
-Visualizations created:
-Boxplot for age vs disease group
-Bar plot for SES vs cognitive score
+Exploratory Data Analysis 
+
+- Summary statistics generated to describe all variables
+- Visualizations created:
+  - Boxplot for age vs disease group
+  - Bar plot for SES vs cognitive score
+
 Clustering Analysis
 
-K-means clustering applied with k=2 to find natural groupings in data
-Data preprocessed by converting categorical disease label to numeric
-Cluster plot generated to visualize clustering results
-Logistic Regression
+- K-means clustering applied with k=2 to find natural groupings in data
+- Data preprocessed by converting categorical disease label to numeric
+- Cluster plot generated to visualize clustering results
 
-Multiple logistic regression used to predict disease status from risk factors
-Two models created - one with all variables, one with selected features
-Model accuracy checked, plots generated to assess fit
-Feature selection methods like stepwise used to reduce variables
+Logistic Regression 
+
+- Multiple logistic regression used to predict disease status from risk factors
+- Two models created - one with all variables, one with selected features
+- Model accuracy checked, plots generated to assess fit
+- Feature selection methods like stepwise used to reduce variables 
+
 Conclusions
 
-Key risk factors like age, gender, SES identified through analysis
-Limitations highlighted like small sample size
+- Key risk factors like age, gender, SES identified through analysis
+- Limitations highlighted like small sample size
 
-
-Key risk factors like age, gender, SES identified through analysis
-Limitations highlighted like small sample size
+In summary, the analysis follows a standard machine learning workflow - data preprocessing, exploratory analysis, clustering, predictive modeling with logistic regression, model evaluation and feature selection. The report highlights the important risk factors found while also noting limitations in the data and methodology. The steps could serve as a template for a typical machine learning analysis.
