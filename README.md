@@ -13,3 +13,37 @@ lower cognitive test scores were all linked to a higher risk of AD.
 According to the study's findings, there are a number of AD risk factors that can be changed. 
 A reduction in the prevalence of AD and an improvement in the quality of life for those who 
 have the illness are both possible outcomes of interventions that focus on these risk factors.
+
+#Methods
+
+Data Loading and Preparation
+
+The dataset is loaded into R using read.csv()
+Missing values are removed with na.omit()
+Categorical columns like gender are converted to numeric formats
+Invalid rows like 'Converted' are removed
+Exploratory Data Analysis
+
+Summary statistics generated to describe all variables
+Visualizations created:
+Boxplot for age vs disease group
+Bar plot for SES vs cognitive score
+Clustering Analysis
+
+K-means clustering applied with k=2 to find natural groupings in data
+Data preprocessed by converting categorical disease label to numeric
+Cluster plot generated to visualize clustering results
+Logistic Regression
+
+Multiple logistic regression used to predict disease status from risk factors
+Two models created - one with all variables, one with selected features
+Model accuracy checked, plots generated to assess fit
+Feature selection methods like stepwise used to reduce variables
+Conclusions
+
+Key risk factors like age, gender, SES identified through analysis
+Limitations highlighted like small sample size
+
+
+Key risk factors like age, gender, SES identified through analysis
+Limitations highlighted like small sample size
